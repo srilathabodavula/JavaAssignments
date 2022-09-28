@@ -1,5 +1,4 @@
 
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -80,15 +79,11 @@ public class Day7Assignment {
 			{
 				
 				
-				//System.out.println(studentlist.get(m).gpaf);
-				//System.out.println(studentlist.get(j).gpaf);
-				
 				
 				 studentlist.set(0, studentlist.get(m));
 				 studentlist.set(m, studentlist.get(j));
 				 studentlist.set(j, studentlist.get(0));
-			//	 System.out.println(studentlist.get(0).gpaf);
-				 //studentlist.set(0, null);
+			
 				 }
 		m++;
 			
@@ -104,17 +99,7 @@ public class Day7Assignment {
 		 	  		 System.out.println(studentlist.get(m).gpaf);
 		 
 			 
-			
-			  
-			  
-		  
-		  
-		  
-		 
-
-		
-		
-		
+					
 		
 		
 	ArrayList<String> swapStrings = new ArrayList<>();
