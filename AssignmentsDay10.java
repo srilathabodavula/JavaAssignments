@@ -75,6 +75,8 @@ for(Map.Entry<String, AssignmentsDay10> student : hs)
 	System.out.println(Ad10.fname1+" "+Ad10.lname1);
 }
 
+/*.com
+ * */
 	}
-
 }
+
